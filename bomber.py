@@ -1195,4 +1195,3 @@ def fileopen():
 
 
 
-root.mainloop()
