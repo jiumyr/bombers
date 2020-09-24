@@ -1194,7 +1194,7 @@ def fileopen():
                                               ('All files', '*.*')))
 
 
-root.resizable(False, False)
+
 text1 = Text(root, height=1, width=15, font='Arial 14')
 text1.pack()
 text1.place(x=15, y=25)
