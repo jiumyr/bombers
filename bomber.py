@@ -1143,10 +1143,6 @@ def download():
     messagebox.showinfo(title='Proxy загружены', message=('Путь к файлу: ' + os.path.dirname(os.path.abspath(__file__)) + '\\proxy.txt'))
 
 
-var = IntVar()
-check = Checkbutton(root, text='Использовать PROXY', variable=var, onvalue=1, offvalue=0)
-check.pack()
-check.place(x=350, y=50)
 
 def StartThread():
     number = text1.get('1.0', 'end')
