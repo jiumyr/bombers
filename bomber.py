@@ -6,9 +6,6 @@ from termcolor import colored
 from random import randint
 import threading, os, sys, time
 colorama.init()
-root = Tk()
-root.title('Sms Bomber, by HZ')
-root.geometry('500x400+300+200')
 
 def good():
     print(colored('SMS sent', 'green'))
