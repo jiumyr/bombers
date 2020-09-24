@@ -3,7 +3,6 @@ from requests import get
 from bs4 import BeautifulSoup as bs
 import colorama
 from termcolor import colored
-from tkinter import filedialog as fd
 from tkinter import *
 from tkinter import messagebox
 from tkinter import Label
